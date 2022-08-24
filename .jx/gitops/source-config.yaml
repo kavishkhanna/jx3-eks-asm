@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: atom-hopper
     - name: atom-hopper-system-regression
     scheduler: in-repo
   slack:
