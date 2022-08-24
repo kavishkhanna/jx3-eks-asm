@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: kavishkhanna
+    provider: github
+    repository: atom-hopper
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: kavishkhanna-atom-hopper
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/kavishkhanna/atom-hopper.git
+  org: kavishkhanna
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: atom-hopper
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/kavishkhanna/atom-hopper

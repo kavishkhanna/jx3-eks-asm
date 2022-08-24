@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        kavishkhanna/atom-hopper: true
         kavishkhanna/atom-hopper-system-regression: true
         kavishkhanna/jx3-eks-asm: true
     plank: {}
@@ -20,6 +21,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        kavishkhanna/atom-hopper: merge
         kavishkhanna/atom-hopper-system-regression: merge
         kavishkhanna/jx3-eks-asm: merge
       queries:
@@ -34,6 +36,7 @@ data:
         repos:
         - kavishkhanna/jx3-eks-asm
         - kavishkhanna/atom-hopper-system-regression
+        - kavishkhanna/atom-hopper
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - kavishkhanna/jx3-eks-asm
         - kavishkhanna/atom-hopper-system-regression
+        - kavishkhanna/atom-hopper
       target_url: http://lighthouse-jx.107.22.115.204.nip.io/merge/status
 kind: ConfigMap
 metadata:
