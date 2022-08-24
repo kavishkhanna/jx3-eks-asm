@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: kavishkhanna
+    provider: github
+    repository: atom-hopper-system-regression
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: kavishkhanna-atom-hopper-system-regression
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/kavishkhanna/atom-hopper-system-regression.git
+  org: kavishkhanna
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: atom-hopper-system-regression
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/kavishkhanna/atom-hopper-system-regression
